@@ -1,0 +1,18 @@
+# Node
+node_modules/
+.next/
+
+# Python
+backend_env_311/
+__pycache__/
+*.pyc
+
+# Env
+.env
+.env.local
+
+# Misc
+.vscode/
+dist/
+build/
+*.log

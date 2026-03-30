@@ -1,0 +1,15 @@
+
+--- Lunges Exercise Report ---
+Total Recorded Time: 24.30 seconds
+Good Form Duration: 1.03 seconds (4.3%)
+Repetitions Completed: 7/8
+
+Errors Detected:
+  - 'Bend back knee more': 351 frames (11.70 seconds, 48.1%)
+  - 'Move fully into camera view': 272 frames (9.07 seconds, 37.3%)
+  - 'Perform a full lunge.': 229 frames (7.63 seconds, 31.4%)
+  - 'Bend front knee more': 75 frames (2.50 seconds, 10.3%)
+
+Areas to Focus On:
+  - Work on proper knee alignment and depth
+--------------------------------

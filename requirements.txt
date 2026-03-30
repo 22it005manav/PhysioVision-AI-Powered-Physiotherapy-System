@@ -1,0 +1,27 @@
+# Combined requirements for the entire project
+# Backend/Backend/requirements.txt + Backend_Vision/requirements.txt
+
+tiktoken
+sentence-transformers
+langchain
+openpyxl
+langchain-community
+langchain-chroma
+langchain-mistralai
+mistralai
+pandas
+fastapi
+uvicorn[standard]
+python-dotenv
+langchain_core
+numpy
+scikit-learn
+pymongo
+opencv-python
+joblib
+mediapipe>=0.10.14,<0.10.31
+scipy
+tensorflow
+websockets
+edge_tts
+googletrans==3.1.0a0

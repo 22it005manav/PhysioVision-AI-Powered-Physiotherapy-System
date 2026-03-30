@@ -1,0 +1,17 @@
+MediaPipe pose in this project uses: import mediapipe as mp; mp.solutions.pose
+
+Why it fails on Python 3.13 (Windows):
+  The PyPI wheel for Python 3.13 only exposes "tasks", not "solutions".
+
+Fix:
+  1) Install Python 3.10 x64 from https://www.python.org/downloads/
+  2) Run in this folder:  create_vision_venv.bat
+  3) Start the server:  backend_env_310\Scripts\python.exe main.py
+
+IMPORTANT — install packages into backend_env_310 ONLY:
+  backend_env_310\Scripts\pip.exe install -r requirements.txt
+  Do NOT run "pip install -r requirements.txt" while venv2 is active — that
+  installs into the wrong env and can break httpx for the FastAPI chatbot.
+
+Keep mediapipe pinned as:  mediapipe>=0.10.14,<0.10.31
+(0.10.31+ removed legacy solutions on many builds.)
